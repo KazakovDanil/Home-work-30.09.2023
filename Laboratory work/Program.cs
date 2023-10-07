@@ -17,23 +17,6 @@ namespace Exercises
             return sum;
         }
 
-        public static string String_conversion(string str, int m)
-        {
-            if (m != 0)
-            {
-                string temp = str;
-                for (int i = 0; i < (m - 1); i++)
-                {
-                    str += temp;
-                }
-                return str;
-            }
-            else
-            {
-                return "";
-            }
-        }
-
         static void Main(string[] args)
         {
             // Упражнение 2
